@@ -1,0 +1,19 @@
+{
+  "name": "PracGraphQL_BE",
+  "version": "1.0.0",
+  "description": "Back end ",
+  "main": "app.js",
+  "repository": "git@github.com-dev:vinhandev/PracGraphQL.git",
+  "author": "vinhandev <vinhan.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "apollo-server": "^3.13.0",
+    "axios": "^1.6.2",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.2"
+  }
+}
